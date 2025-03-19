@@ -1,0 +1,18 @@
+
+.custom-button {
+    border: none !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+    transform: scale(1) !important;
+    font-family: "Alata", sans-serif !important;
+    padding: 10px !important;
+    margin-left: 10px;
+}
+
+.custom-button:hover {
+    transform: scale(1.05) !important;
+} 
+
+
+
+
