@@ -1,5 +1,4 @@
 [build]
-[build]
   command = "npm i --no-optional && npm run build"
   publish = "dist"
 
