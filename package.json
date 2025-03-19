@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "preinstall": "node preinstall.js",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.21.0",

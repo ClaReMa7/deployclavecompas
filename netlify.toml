@@ -1,7 +1,8 @@
 [build]
-  command = "npm install @rollup/rollup-linux-x64-gnu --no-save; npm run build"
+  command = "npm install --force && VITE_DISABLE_NATIVE=true npm run build"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20"
-  NPM_FLAGS = "--no-optional"
+  NODE_VERSION = "16"
+  VITE_DISABLE_NATIVE = "true"
+  NPM_FLAGS = "--legacy-peer-deps --force"
