@@ -44,5 +44,8 @@
     "vite": "^6.2.1",
     "@rollup/rollup-linux-x64-gnu": "npm:@rollup/rollup-linux-x64-musl@*"
 
-  }
+  },
+  "resolutions": {
+  "@rollup/rollup-linux-x64-gnu": "4.36.0"
+}
 }
